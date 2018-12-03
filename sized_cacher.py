@@ -4,7 +4,7 @@ import hashlib
 from threading import Lock
 from collections import namedtuple
 
-version = "1.0"
+version = "1.1"
 CacheValue = namedtuple("CacheValue", ["ts", "value"])
 
 

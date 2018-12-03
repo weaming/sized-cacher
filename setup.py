@@ -43,7 +43,8 @@ setup(
     install_requires=install_requires,
     # You can use `find_packages()` or the `py_modules` argument which expect a
     # single python file
-    packages=find_packages(exclude=["contrib", "docs", "tests"]),  # Required
+    # packages=find_packages(exclude=["contrib", "docs", "tests"]),  # Required
+    py_modules=['sized_cacher'],
     entry_points={
         "console_scripts": ["pycrontab=pycrontab.__main__:main"]
     },  # Optional
